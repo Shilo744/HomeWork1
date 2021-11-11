@@ -8,5 +8,6 @@ public class Task1 {
         int userInput = scanner.nextInt();
 
             System.out.println("The absolute value is " + (Math.abs(userInput)));
+System.out.println("היי סאשה,מצאתי איך עורכים בגיט ^^");
     }
 }
