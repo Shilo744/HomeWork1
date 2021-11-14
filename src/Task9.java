@@ -22,13 +22,13 @@ public class Task9 {
         do {
             System.out.println("Enter a positive number:");
             num = scanner.nextInt();
-        } while (num <= 1);
+        } while (num <= 0);
         return num;
     }
 
     public static void main(String[] args) {
-        int num1 = number();
-        for (int num2 = 2; num2 < num1; num2++) {
+        int number = number();
+        for (int num2 = 2; num2 < number; num2++) {
             boolean isPrime = prime(num2);
             if (isPrime) {
                 System.out.println(num2);
